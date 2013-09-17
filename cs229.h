@@ -7,7 +7,7 @@
 
 #ifndef CS229_H_
 #define CS229_H_
-#endif /* CS229_H_ */
+
 
 typedef struct CS229_header
 {
@@ -19,5 +19,7 @@ typedef struct CS229_header
 	int num_samples;		/* Number of samples */
 	int snd_length;			/* In seconds */
 } CS229_head;
+
+#endif /* CS229_H_ */
 
 

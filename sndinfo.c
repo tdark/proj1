@@ -14,8 +14,16 @@
 
 
 
-void sndinfo(FILE* infile)
+int sndinfo(FILE* infile)
 {
+
+
+	if (!infile)
+	{
+		printf("Error: cannot open file. Exiting...");
+		return 1;
+	}
+
 
 }
 

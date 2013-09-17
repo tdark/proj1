@@ -7,8 +7,6 @@
 
 #ifndef AIFF_H_
 #define AIFF_H_
-#endif /* AIFF_H_ */
-
 typedef struct AIFF_header
 {
 	char file_name[];		/*File name*/
@@ -19,3 +17,4 @@ typedef struct AIFF_header
 	int num_samples;		/* Number of samples */
 	int snd_length;			/* In seconds */
 } AIFF_head;
+#endif /* AIFF_H_ */
